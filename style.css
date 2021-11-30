@@ -1,0 +1,24 @@
+.black{
+    background-color: black;
+}
+.gray{
+    background-color: #181818;
+}
+.navcolor{
+    background-color: #181818;
+}
+.card{
+    color: white;
+    background-color:  rgb(18 17 17);
+}
+.card-body{
+    padding: 1rem;
+    height: 10rem;
+}
+.footer{
+    background-color:rgb(18 17 17);
+}
+.card-img-top{
+    height: 27em;
+    width: 17em;
+}
