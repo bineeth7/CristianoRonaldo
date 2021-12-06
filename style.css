@@ -27,7 +27,22 @@ body::before{
     height: 27em;
     width: 17em;
 }
-
+@media(max-width:544px) {
+  .navbar .navbar-nav>.nav-item {
+      float: none;
+      margin-left: .1rem;
+  }
+  .navbar .navbar-nav {
+      float:none !important;
+  }
+  .navbar .collapse.in, .navbar .collapsing  {
+      clear:both;
+  }
+}
+.body{
+  margin: 0;
+  padding: 0;
+}
 /* <nav class="navbar navbar-expand-lg navbar-light">
                 
 <button class="navbar-toggler ml-auto navcolor" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
